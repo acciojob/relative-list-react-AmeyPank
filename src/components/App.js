@@ -6,9 +6,9 @@ const App = () => {
   return (
     <div>
       <h1>Relative List</h1>
-      <ol key="relativeList">
+      <ol id='relativeList' key="relativeList">
         {relatives.map((relative, index) => (
-          <li key={`relativeListItem${index + 1}`}>{relative}</li>
+          <li id='relativeListItem1' key={`relativeListItem${index + 1}`}>{relative}</li>
         ))}
       </ol>
     </div>
